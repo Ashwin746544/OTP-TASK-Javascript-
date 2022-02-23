@@ -1,0 +1,53 @@
+.main-container {
+  max-width: 1320px;
+  margin: auto;
+  display: flex;
+  height: 100vh;
+  .ui-container {
+    max-width: 300px;
+    height: 500px;
+    background-color: #d3d3d3;
+    backdrop-filter: blur(50px);
+    padding: 25px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    .title {
+      font-size: 30px;
+    }
+    .otp-container {
+      margin-bottom: 200px;
+      .otpField {
+        border: 1px solid #e5e5d9;
+        width: 35px;
+        height: 60px;
+        margin: 0 2px;
+        border-radius: 5px;
+        font-size: 22px;
+        text-align: center;
+      }
+      .otpField:hover {
+        background: #d3d3d35c;
+      }
+      .otpField:focus {
+        outline: 2px solid rgb(0, 123, 255);
+      }
+    }
+    .submit-container {
+      button {
+        background-color: rgb(0, 123, 255);
+        margin-top: 20px;
+        color: white;
+        padding: 8px 0;
+        width: 280px;
+        height: 32px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+    }
+  }
+}
